@@ -11,6 +11,7 @@ create_backup () {
 	if [ -f  "$config" ] ; then
 		echo Backing up current Neovim configuration...
 		mv "$config" "$config_bak"
+		rm "$config"
 		echo Configuration backed up to "$config_bak"
 		echo Done!
 	fi
@@ -18,6 +19,7 @@ create_backup () {
 	if [ -f  "$data" ] ; then
 		echo Backing up current Neovim data...
 		mv "$data" "$data_bak"
+		rm "$data"
 		echo Configuration backed up to "$data_bak"
 		echo Done!
 	fi
