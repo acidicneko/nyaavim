@@ -8,18 +8,18 @@ data_bak="$HOME/.local/share/nvim_bak"
 
 
 create_backup () {
-	if [ -f  "$config" ] ; then
+	if [ -d  "$config" ] ; then
 		echo Backing up current Neovim configuration...
 		mv "$config" "$config_bak"
-		rm "$config"
+		rm -rf "$config"
 		echo Configuration backed up to "$config_bak"
 		echo Done!
 	fi
 	
-	if [ -f  "$data" ] ; then
+	if [ -d  "$data" ] ; then
 		echo Backing up current Neovim data...
 		mv "$data" "$data_bak"
-		rm "$data"
+		rm -rf "$data"
 		echo Configuration backed up to "$data_bak"
 		echo Done!
 	fi
