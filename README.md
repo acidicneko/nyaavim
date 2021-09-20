@@ -7,4 +7,9 @@ bash -c "$(curl https://raw.githubusercontent.com/clawbhaiya/nyaavim/main/tools/
 ```
 
 ## In Action
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/1V6KLaV" data-context="false" ><a href="//imgur.com/a/1V6KLaV"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+- Startscreen
+![Settings Window](https://i.imgur.com/bpSlFh8.png)
+
+
+- Split view with Nyaavim config opened
+![Settings Window](https://i.imgur.com/ag6io3o.png)
