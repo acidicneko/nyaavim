@@ -5,6 +5,7 @@ Plug 'kyazdani42/nvim-web-devicons'
 Plug 'kyazdani42/nvim-tree.lua'
 Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
 Plug 'ayu-theme/ayu-vim'
+Plug 'joshdick/onedark.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'jiangmiao/auto-pairs'
@@ -23,8 +24,9 @@ let g:nvim_tree_ignore = [ '.git', 'node_modules', '.cache', '*.o' ]
 
 " Ayu-Dark Colors
 set termguicolors
-let ayucolor="dark"
-colorscheme ayu
+" let ayucolor="dark"
+" colorscheme ayu
+colorscheme onedark
 
 " Galaxyline Config
 luafile ~/.config/nvim/lua/galaxyline/eviline.lua

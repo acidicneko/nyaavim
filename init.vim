@@ -11,6 +11,7 @@ set laststatus=2
 set noshowmode
 set number
 set shiftwidth=4
+set expandtab
 set tabstop=4
 set autoindent
 set smartindent
